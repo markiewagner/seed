@@ -6,10 +6,10 @@
       <v-toolbar-side-icon class="hidden-md-and-up"></v-toolbar-side-icon>
       <v-toolbar-items class="hidden-sm-and-down pr-5">
         <v-btn flat >What we do</v-btn>
-        <v-btn flat href = "http://seed6-imseeu.c9users.io:8080/#/email" style="font-family:Hk">Demo</v-btn>
-        
+        <v-btn flat href = "http://localhost:8080/#/email" style="font-family:Hk">Demo</v-btn>
+
       </v-toolbar-items>
-      
+
     </v-toolbar>
     <main>
       <v-content row wrap>>
@@ -24,7 +24,7 @@
             </v-layout>
           </v-parallax>
         </section>
-        
+
         <section>
           <v-parallax src="https://i.imgur.com/PUeov4q.jpg" height="700" jumbotron>
           </v-parallax>
@@ -70,7 +70,7 @@
                         <div class="headline">Automatic</div>
                       </v-card-title>
                       <v-card-text style="font-family:Hk">
-                        Seed tracks interactions between you and your contacts across all platforms. No work for you, all the opportunity. 
+                        Seed tracks interactions between you and your contacts across all platforms. No work for you, all the opportunity.
                       </v-card-text>
                     </v-card>
                   </v-flex>
@@ -93,11 +93,11 @@
           </v-layout>
         </section>
 
-        
-        
+
+
         <v-divider></v-divider>
-        
-        
+
+
       </v-content>
     </main>
   </v-app>
@@ -108,7 +108,7 @@
     font-family: Hk;
     src: url('../assets/fonts/hk-grotesk/HKGrotesk-Regular.otf');
   }
-  
+
 </style>
 
  <script src="https://unpkg.com/vue/dist/vue.js"></script>
@@ -138,7 +138,7 @@ import ImgUpload from './ImgUpload.vue'
     components:{
     'ImgUpload': ImgUpload
   },
-    
+
   }
 
 
